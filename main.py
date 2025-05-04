@@ -65,7 +65,7 @@ try:
     
     # Create price chart
     fig = go.Figure()
-    fig.add_trace(go.Scatter(
+    fig.add_trace(go.Scatter()
         x=hist.index,
         y=hist['Close'],
         mode='lines',
